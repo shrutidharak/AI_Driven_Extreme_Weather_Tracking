@@ -57,11 +57,11 @@ Note: free Streamlit apps go to sleep when nobody has used them for a while. If 
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/dba2474c-3953-4eac-804e-79f65cab2150" />
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/a6c7b611-c9f6-4d09-a006-ef05cd8d2e3b" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/56127442-3781-44b5-903a-568d55204979" />
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8d8d10e0-ebae-4f39-9d15-36e43481e4b4" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1001ee63-63f1-4785-a838-42ebadcc6b38" />
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8d8d10e0-ebae-4f39-9d15-36e43481e4b4" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e29e3551-2080-4d28-9b7c-201bf611bae1" />
 
 ---
 
