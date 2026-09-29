@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  # 1. FastAPI Alert Microservice
+  weather-api:
+    build: .
+    container_name: sih_weather_api
+    restart: unless-stopped
+    command: uvicorn api.main:app --host 0.0.0.0 --port 8000 --workers 2
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    environment:
+      - PORT=8000
+
+  # 2. Streamlit Interactive Threat Intelligence Dashboard
+  weather-dashboard:
+    build: .
+    container_name: sih_weather_dashboard
+    restart: unless-stopped
+    command: streamlit run app.py --server.port=8501 --server.address=0.0.0.0 --server.enableCORS=false --server.enableXsrfProtection=false
+    ports:
+      - "8501:8501"
+    depends_on:
+      - weather-api
+    environment:
+      - API_URL=http://weather-api:8000
